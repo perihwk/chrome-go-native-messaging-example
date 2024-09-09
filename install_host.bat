@@ -1,0 +1,1 @@
+REG ADD "HKLM\Software\Google\Chrome\NativeMessagingHosts\com.example.messaging" /ve /t REG_SZ /d "%~dp0host\manifest.json" /f

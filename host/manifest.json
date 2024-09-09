@@ -1,0 +1,9 @@
+{
+    "name": "com.example.messaging",
+    "description": "Example Native Messaging Host",
+    "path": "C:\\EXAMPLE\\HOST\\PATH\\native-messaging-host-example.exe",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://knldjmfmopnpolahpmmgbagdohdnhkik/"
+    ]
+}
