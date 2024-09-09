@@ -10,14 +10,12 @@ import (
 )
 
 type Request struct {
-	Query     string `json:"query"`
-	MessageID string `json:"messageId"`
+	Query string `json:"query"`
 }
 
 type Response struct {
-	MessageID string `json:"messageId"`
-	Query     string `json:"query"`
-	Response  string `json:"response"`
+	Query    string `json:"query"`
+	Response string `json:"response"`
 }
 
 func main() {
@@ -34,8 +32,7 @@ func main() {
 			}
 
 			responseMsg := Response{
-				MessageID: request.MessageID,
-				Query:     request.Query,
+				Query: request.Query,
 			}
 
 			switch request.Query {
